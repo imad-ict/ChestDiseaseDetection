@@ -53,4 +53,4 @@ If you would like to contribute to this project, please submit a pull request wi
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [https://github.com/imad-ict/ChestDiseaseDetection/blob/main/LICENSE.txt](LICENSE) file for details.
