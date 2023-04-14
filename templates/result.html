@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnosis Results</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Diagnosis Results</h1>
+        <table>
+            <tr>
+                <th>Condition</th>
+                <th>Probability (%)</th>
+            </tr>
+            {% for condition, probability in diagnosis.items() %}
+            <tr>
+                <td>{{ condition }}</td>
+                <td>{{ probability }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <br>
+        <a href="/">Try another X-ray</a>
+    </div>
+</body>
+</html>
