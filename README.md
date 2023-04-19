@@ -21,7 +21,7 @@ To get started, follow these steps:
     pip install -r requirements.txt
     ```
 
-3. Download the ChexNet model weights from [this link](https://example.com/weights.h5) and place the `weights.h5` file in the project's root directory.
+3. Download the ChexNet model weight and place the `weights.h5` file in the project's root directory.
 
 4. Run the Flask web app:
 
@@ -53,4 +53,4 @@ If you would like to contribute to this project, please submit a pull request wi
 
 ## License
 
-This project is licensed under the MIT License. See the [https://github.com/imad-ict/ChestDiseaseDetection/blob/main/LICENSE.txt](LICENSE) file for details.
+This project is licensed under the MIT License. See the (LICENSE) file for details.
